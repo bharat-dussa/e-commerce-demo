@@ -1,0 +1,197 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "codeflow",
+  "steps": [
+    {
+      "file": "src/MainApp.tsx",
+      "description": "App is starting from here",
+      "line": 10
+    },
+    {
+      "file": "src/MainApp.tsx",
+      "description": "/ is for home path <App />\n\n",
+      "line": 12
+    },
+    {
+      "file": "src/MainApp.tsx",
+      "description": "`/product/:id` is for home path <ProductItem />\n\n\nHere :id is denoted to browser path, :id\n\n\nso when we hit /product/1 \n\n1 is denoted as id here.\n\n\nso only path that matches with `/product/:id` e.x ` /product/1`, ` /product/2`",
+      "line": 13
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "useState hook for storing data",
+      "line": 13
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "useLocalStorage ",
+      "line": 18
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "App starts here",
+      "line": 44
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "fetchProducts is calling here",
+      "line": 45
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "loading will; set to true;",
+      "line": 24,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 27
+        }
+      }
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "api is calling here ",
+      "line": 26
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "convert to json ",
+      "line": 28
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "set error if any error comes",
+      "line": 33
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "finally we have to set loading will false",
+      "line": 35
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "when isLoading is true spinner will appear",
+      "line": 61,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 43
+        }
+      }
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "if nothing, nor isLoading, error is not there UI will appear",
+      "line": 69
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "event will stop propagte here, ",
+      "line": 101,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 32
+        }
+      }
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "here we are upadting `setCartItems([...cartItems, product])`\n\nSo here i am updatin with existing cartItems also. \n\n\n`setCartItems([product])` if we do like this only one product will add here. SO thus in above we are destructing the cartItems, to add existing data. ",
+      "line": 103
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "when we click `handleProductClick`  will call with product.id",
+      "line": 77
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "Here it will navigate to `/product/${id}` \n\nwhich is ProductItem Page, see browser `product/{id}` it will appear like this ex: `/product/1`",
+      "line": 40
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "Here whaterer the id is transferred from `useParams` we will get that",
+      "line": 14
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "on Mount  `fetchProductById` will be called",
+      "line": 36
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "from here normal our api will be called",
+      "line": 19
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "data will be set",
+      "line": 23
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "data will  render",
+      "line": 42
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "this press is only for demo purpose of useEffect dependency, like how useEffect will trigger upon udating the states ",
+      "line": 32
+    },
+    {
+      "file": "src/ProductItem.tsx",
+      "description": "`[isPressed]` so by this way we can tell react that it must call the inner part",
+      "line": 37
+    },
+    {
+      "file": "src/App.tsx",
+      "description": "if you want to navigate to `/cart` you can click on this button to cart",
+      "line": 69
+    },
+    {
+      "file": "src/CartPage.tsx",
+      "description": "cartData.lenght is 0 then it will show empty",
+      "line": 22,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 1,
+          "character": 45
+        }
+      }
+    },
+    {
+      "file": "src/CartPage.tsx",
+      "description": "from local storage we will update the local State `setCartData`",
+      "line": 13
+    },
+    {
+      "file": "src/CartPage.tsx",
+      "description": "`cartData`  will filter",
+      "line": 51
+    },
+    {
+      "file": "src/CartPage.tsx",
+      "description": "it will exclude the id",
+      "line": 52
+    }
+  ],
+  "ref": "master"
+}

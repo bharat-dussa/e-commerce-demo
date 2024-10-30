@@ -20,6 +20,7 @@ function App() {
   const navigate = useNavigate();
 
   const fetchProducts = async () => {
+    // fetching the api 
     setIsLoading(true);
     try {
       const res = await fetch("https://fakestoreapi.com/products");
@@ -38,11 +39,13 @@ function App() {
   const handleProductClick = (id) => {
     navigate(`/product/${id}`);
   };
+
+
   useEffect(() => {
     fetchProducts();
   }, []);
 
-  console.log("isLoading", isLoading);
+  
 
   useEffect(() => {
     const timerId = setInterval(() => {

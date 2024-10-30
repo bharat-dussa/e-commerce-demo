@@ -8,7 +8,7 @@ const ProductItem = () => {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(false);
-    
+
   const [isPressed, setIsPressed] = useState(false);
 
   const { id } = useParams();
@@ -32,9 +32,6 @@ const ProductItem = () => {
     setIsPressed((is) => !is);
   };
 
-
-
-
   useEffect(() => {
     fetchProductById();
   }, [isPressed]);
@@ -42,28 +39,28 @@ const ProductItem = () => {
   return isLoading ? (
     <Spin indicator={<LoadingOutlined spin />} size="large" />
   ) : (
-   <Flex>
-    <Button onClick={handlePress}>Press here </Button>
-     <Card
-      cover={
-        <img
-          style={{
-            width: 200,
-          }}
-          alt="example"
-          src={data?.image}
-        />
-      }
-    >
-      <Meta
-        avatar={
-          <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=8" />
+    <Flex>
+      <Button onClick={handlePress}>Press here </Button>
+      <Card
+        cover={
+          <img
+            style={{
+              width: 200,
+            }}
+            alt="example"
+            src={data?.image}
+          />
         }
-        title={data?.title}
-        description={data?.description}
-      />
-    </Card>
-   </Flex>
+      >
+        <Meta
+          avatar={
+            <Avatar src="https://api.dicebear.com/7.x/miniavs/svg?seed=8" />
+          }
+          title={data?.title}
+          description={data?.description}
+        />
+      </Card>
+    </Flex>
   );
 };
 
