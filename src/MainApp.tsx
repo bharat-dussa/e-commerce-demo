@@ -16,6 +16,7 @@ import AboutUsPage from './pooja/AboutUsPage'
 import PoojaHomePage from './pooja/HomePage'
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
+import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
 
 const MainApp = () => {
   return (
@@ -42,6 +43,7 @@ const MainApp = () => {
             <Route path="keerthana/cartPage" element={<KeerthanaCartPage />}/>
             <Route path="keerthana/homepage" element={<KeerthanaHomePage />} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage />} />
+            <Route path="narendra/aboutuspage" element={<NarendraAboutUsPage/>}/>
         </Routes>
     </BrowserRouter>
   );
