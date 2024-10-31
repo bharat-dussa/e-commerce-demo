@@ -12,7 +12,7 @@ const MainApp = () => {
             <Route path='/' element={<App />} />
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
-            <Route path='/payment' element={<PaymentPage />} />
+            <Route path='nikita/payment' element={<PaymentPage />} />
         </Routes>
     </BrowserRouter>
   )
