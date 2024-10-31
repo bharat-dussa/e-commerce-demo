@@ -17,6 +17,9 @@ import PoojaHomePage from './pooja/HomePage'
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
+import HarshitaAboutUs from './Harshita/AboutUs'
+
+
 
 const MainApp = () => {
   return (
@@ -39,6 +42,10 @@ const MainApp = () => {
             <Route path="sneha/homepage" element={<SnehaHomePage/>}/>
             <Route path="narendra/homepage" element={<NarendraHomePage/>}/>
             <Route path="keerthana/aboutusPage" element={<KeerthanaAboutUsPage />}/>
+            <Route path="Harshita/aboutusPage" element={<HarshitaAboutUs />}/>
+
+            
+            
 
             <Route path="keerthana/cartPage" element={<KeerthanaCartPage />}/>
             <Route path="keerthana/homepage" element={<KeerthanaHomePage />} />
