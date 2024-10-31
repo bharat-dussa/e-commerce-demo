@@ -10,6 +10,7 @@ import KeerthanaAboutUsPage from "./Keerthana/aboutUS"
 import KeerthanaCartPage from "./Keerthana/CartPage"
 import KeerthanaHomePage from "./Keerthana/HomePage"
 import LaxmanHomePage from "./Laxman/HomePage"
+import LaxmanCartPage from "./Laxman/CartPage"
 import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
 import NarendraHomePage from "./Narendra/Homepage"
@@ -30,6 +31,7 @@ const MainApp = () => {
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
             <Route path="Laxman/homepage" element={<LaxmanHomePage/>}/>
+            <Route path='Laaxman/cart' element={<LaxmanCartPage/>}/>
             <Route path='nikita/payment' element={<PaymentPage />} />
             <Route path='pooja/about-us' element={<AboutUsPage/>}/>
 
