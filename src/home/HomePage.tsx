@@ -7,7 +7,7 @@ import NewArrival from './Newarrival/newArrival.jsx'
 import Topseller from './topseller/Topseller.jsx'
 // import DressStyle from './DressStyle/DressStyle.jsx'
 // import { IoClose } from "react-icons/io5";
-const HomePage = () => {
+const VigneshHomePage = () => {
   return (
     <div>
       <main className='container'>
@@ -26,4 +26,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default VigneshHomePage
