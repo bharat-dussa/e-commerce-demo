@@ -10,6 +10,7 @@ import SnehaHomePage from "./sneha/HomePage"
 import KeerthanaCartPage from "./Keerthana/CartPage"
 import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs";
 import KeerthanaHomePage from "./Keerthana/HomePage"
+import LaxmanHomePage from "./Laxman/HomePage";
 
 const MainApp = () => {
   return (
@@ -19,6 +20,7 @@ const MainApp = () => {
             {/* <Route path='/vignesh/home' element={<HomePage />} /> */}
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
+            <Route path="Laxman/homepage" element={<LaxmanHomePage/>}/>
 
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
