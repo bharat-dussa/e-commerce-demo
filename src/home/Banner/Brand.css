@@ -1,0 +1,11 @@
+.brand{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.brand img{
+    object-fit: cover;
+    
+}
