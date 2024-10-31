@@ -22,13 +22,13 @@ import SnehaAboutUS from "./sneha/AboutUs"
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
+import ShirishaCartPage from "./shirisha/shirisha-cartPage";
 import HarshitaAboutUs from './Harshita/AboutUs'
 import HomePage from "./Harshita/HarshitaHomePage"
 import LaxmiAboutUsPage from "./Laxmi/AboutUsPage"
 import LaxmiHomePage from "./Laxmi/HomePage"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage";
 import ShirishaAboutUsPage from "./Shirisha/Shirisha-AboutUs;
-
 
 
 const MainApp = () => {
@@ -60,6 +60,8 @@ const MainApp = () => {
             <Route path="keerthana/homepage" element={<KeerthanaHomePage />} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage />} />
             <Route path="narendra/aboutuspage" element={<NarendraAboutUsPage/>}/>
+            <Route path="shirisha/cartPage"element={<ShirishaCartPage/>}/>
+
             <Route path="shirisha/aboutuspage" element={<ShirishaAboutUsPage/>}/>
             <Route path="Harshita/HomePage" element={<HomePage/>}/>
             <Route path="prachi/HomePage" element={<HomePage/>}/>
