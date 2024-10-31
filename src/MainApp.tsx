@@ -9,6 +9,9 @@ import KeerthanaPaymentPage from "./Keerthana-PaymentPage/PaymentPage"
 import KeerthanaAboutUsPage from "./Keerthana/aboutUS"
 import KeerthanaCartPage from "./Keerthana/CartPage"
 import KeerthanaHomePage from "./Keerthana/HomePage"
+<<<<<<< HEAD
+import LaxmanHomePage from "./Laxman/HomePage";
+=======
 import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs"
 import NarendraHomePage from "./Narendra/Homepage"
 import NikitaHomePage from "./nikita/HomePage"
@@ -17,6 +20,7 @@ import PoojaHomePage from './pooja/HomePage'
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
+>>>>>>> 21a9a12b8c3cd07130a8c24b75fdd436ae34441e
 
 const MainApp = () => {
   return (
@@ -26,8 +30,12 @@ const MainApp = () => {
             <Route path='/vignesh/home' element={<VigneshHomePage />} /> 
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
+<<<<<<< HEAD
+            <Route path="Laxman/homepage" element={<LaxmanHomePage/>}/>
+=======
             <Route path='nikita/payment' element={<PaymentPage />} />
             <Route path='pooja/about-us' element={<AboutUsPage/>}/>
+>>>>>>> 21a9a12b8c3cd07130a8c24b75fdd436ae34441e
 
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
