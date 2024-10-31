@@ -1,0 +1,19 @@
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.coupon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.627);
+    padding: 8px;
+}
+.couponsignup{
+    color: white;
+}
