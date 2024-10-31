@@ -15,6 +15,7 @@ import NikitaHomePage from "./nikita/HomePage"
 import AboutUsPage from './pooja/AboutUsPage'
 import PoojaHomePage from './pooja/HomePage'
 import SnehaHomePage from "./sneha/HomePage"
+import SnehaAboutUS from "./sneha/AboutUs"
 import AboutUs from "./vidya/aboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
 
@@ -32,6 +33,7 @@ const MainApp = () => {
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
             <Route path="sneha/homepage" element={<SnehaHomePage/>} />
+            <Route path="sneha/aboutus" element={<SnehaAboutUS/>} />
             <Route path="keerthana/homepage" element={<KeerthanaHomePage/>} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage/>} />
             <Route path="keerthana/paymentpage" element={<KeerthanaPaymentPage/>}/>
