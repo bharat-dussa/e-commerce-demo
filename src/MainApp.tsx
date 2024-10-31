@@ -32,6 +32,7 @@ import LaxmiAboutUsPage from "./Laxmi/AboutUsPage"
 import LaxmiHomePage from "./Laxmi/HomePage"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage";
 import ShirishaAboutUsPage from "./Shirisha/Shirisha-AboutUs;
+import LaxmiPaymentPage from "./Laxmi-PaymentPage/PaymentPage"
 
 
 const MainApp = () => {
@@ -72,6 +73,7 @@ const MainApp = () => {
             <Route path="Shirisha/paymentPage" element={<ShirishaPaymentPage/>}/>
             <Route path="laxmi/aboutuspage" element={<LaxmiAboutUsPage/>}/>
             <Route path="laxmi/homePage" element={<LaxmiHomePage/>} />
+            <Route path="laxmi/paymentpage" element={<LaxmiPaymentPage/>}/>
         </Routes>
     </BrowserRouter>
   );
