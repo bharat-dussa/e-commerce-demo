@@ -20,7 +20,8 @@ import PoojaHomePage from './pooja/HomePage'
 import HomePage from "./prachi/HomePage"
 import SnehaAboutUS from "./sneha/AboutUs"
 import SnehaHomePage from "./sneha/HomePage"
-import AboutUs from "./vidya/aboutUs"
+import AboutUs from "./vidya/aboutUs";
+import ShirishaPaymentPage from"./shirisha/shirisha-PaymentPage"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
 
 import ShirishaHomepage from "./shirisha/Shirisha-HomePage"
@@ -68,6 +69,7 @@ const MainApp = () => {
             <Route path="shirisha/aboutuspage" element={<ShirishaAboutUsPage/>}/>
             <Route path="Harshita/HomePage" element={<HomePage/>}/>
             <Route path="prachi/HomePage" element={<HomePage/>}/>
+            <Route path="Shirisha/paymentPage" element={<ShirishaPaymentPage/>}/>
             <Route path="laxmi/aboutuspage" element={<LaxmiAboutUsPage/>}/>
             <Route path="laxmi/homePage" element={<LaxmiHomePage/>} />
         </Routes>
