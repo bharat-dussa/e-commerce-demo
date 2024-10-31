@@ -9,6 +9,7 @@ const HomePage = () => {
         <h1>Welcome to the Homepage</h1>
         <p>Your one-stop solution for news, weather, and entertainment!</p>
       </header>
+      
       <section style={styles.section}>
         <h2>Features</h2>
         <ul>
