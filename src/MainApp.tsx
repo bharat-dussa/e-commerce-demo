@@ -7,7 +7,8 @@ import NikitaHomePage from "./nikita/HomePage";
 import PoojaHomePage from './pooja/HomePage';
 import SnehaHomePage from "./sneha/HomePage"
 import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs";
-import KeerthanaHomePage from "./Keerthana/HomePage"
+import KeerthanaHomePage from "./Keerthana/HomePage";
+import KeerthanaPaymentPage from "./Keerthana-PaymentPage/PaymentPage"
 
 const MainApp = () => {
   return (
@@ -21,6 +22,7 @@ const MainApp = () => {
             <Route path="sneha/homepage" element={<SnehaHomePage/>} />
             <Route path="keerthana/homepage" element={<KeerthanaHomePage/>} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage/>} />
+            <Route path="keerthana/paymentpage" element={<KeerthanaPaymentPage/>}/>
         </Routes>
     </BrowserRouter>
   );
