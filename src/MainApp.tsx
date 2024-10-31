@@ -1,18 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import App from "./App";
-import CartPage from "./CartPage";
-import KeerthanaAboutUsPage from "./Keerthana/aboutUS";
-import KeerthanaHomePage from "./Keerthana/HomePage";
-import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs";
-import NikitaHomePage from "./nikita/HomePage";
-// import HomePage from './home/HomePage'
-import VigneshHomePage from "./home/HomePage";
-import KeerthanaCartPage from "./Keerthana/CartPage";
-import PoojaHomePage from './pooja/HomePage';
-import SnehaHomePage from "./sneha/HomePage";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import App from './App'
+import CartPage from './CartPage'
+import KeerthanaAboutUsPage from "./Keerthana/aboutUS"
+import KeerthanaHomePage from "./Keerthana/HomePage"
+import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs"
+import NikitaHomePage from "./nikita/HomePage"
+import AboutUsPage from './pooja/AboutUsPage'
+import ProductItem from './ProductItem'
+import VigneshHomePage from "./home/HomePage"
+import KeerthanaCartPage from "./Keerthana/CartPage"
 import NarendraHomePage from "./Narendra/Homepage"
-import ProductItem from "./ProductItem";
-import SnehaHomePage from "./sneha/HomePage";
+import PoojaHomePage from './pooja/HomePage'
+import SnehaHomePage from "./sneha/HomePage"
 
 const MainApp = () => {
   return (
@@ -22,6 +21,7 @@ const MainApp = () => {
             <Route path='/vignesh/home' element={<VigneshHomePage />} /> 
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
+            <Route path='pooja/about-us' element={<AboutUsPage/>}/>
 
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
