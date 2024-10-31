@@ -22,9 +22,11 @@ import SnehaAboutUS from "./sneha/AboutUs"
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
 import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
+import HarshitaAboutUs from './Harshita/AboutUs'
 import HomePage from "./Harshita/HarshitaHomePage"
 import LaxmiAboutUsPage from "./Laxmi/AboutUsPage"
 import LaxmiHomePage from "./Laxmi/HomePage"
+
 
 const MainApp = () => {
   return (
@@ -50,7 +52,7 @@ const MainApp = () => {
             <Route path="sneha/homepage" element={<SnehaHomePage/>}/>
             <Route path="narendra/homepage" element={<NarendraHomePage/>}/>
             <Route path="keerthana/aboutusPage" element={<KeerthanaAboutUsPage />}/>
-
+            <Route path="Harshita/aboutusPage" element={<HarshitaAboutUs />}/>       
             <Route path="keerthana/cartPage" element={<KeerthanaCartPage />}/>
             <Route path="keerthana/homepage" element={<KeerthanaHomePage />} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage />} />
