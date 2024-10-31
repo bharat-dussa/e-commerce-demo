@@ -9,15 +9,17 @@ import KeerthanaPaymentPage from "./Keerthana-PaymentPage/PaymentPage"
 import KeerthanaAboutUsPage from "./Keerthana/aboutUS"
 import KeerthanaCartPage from "./Keerthana/CartPage"
 import KeerthanaHomePage from "./Keerthana/HomePage"
+import LaxmanHomePage from "./Laxman/HomePage"
 import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs"
+import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
 import NarendraHomePage from "./Narendra/Homepage"
 import NikitaHomePage from "./nikita/HomePage"
 import AboutUsPage from './pooja/AboutUsPage'
 import PoojaHomePage from './pooja/HomePage'
+import HomePage from "./prachi/HomePage"
+import SnehaAboutUS from "./sneha/AboutUs"
 import SnehaHomePage from "./sneha/HomePage"
 import AboutUs from "./vidya/aboutUs"
-import NarendraAboutUsPage from "./Narendra-AboutUs/Narendra-AboutUsPage"
-import HomePage from "./prachi/HomePage"
 
 const MainApp = () => {
   return (
@@ -27,12 +29,14 @@ const MainApp = () => {
             <Route path='/vignesh/home' element={<VigneshHomePage />} /> 
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
+            <Route path="Laxman/homepage" element={<LaxmanHomePage/>}/>
             <Route path='nikita/payment' element={<PaymentPage />} />
             <Route path='pooja/about-us' element={<AboutUsPage/>}/>
 
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
             <Route path="sneha/homepage" element={<SnehaHomePage/>} />
+            <Route path="sneha/aboutus" element={<SnehaAboutUS/>} />
             <Route path="keerthana/homepage" element={<KeerthanaHomePage/>} />
             <Route path="narendra/paymentpage" element={<NarendraPaymentPage/>} />
             <Route path="keerthana/paymentpage" element={<KeerthanaPaymentPage/>}/>
