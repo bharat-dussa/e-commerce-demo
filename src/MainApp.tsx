@@ -8,7 +8,7 @@ import NikitaHomePage from "./nikita/HomePage";
 import HomePage from './home/HomePage'
 import PoojaHomePage from './pooja/HomePage';
 import SnehaHomePage from "./sneha/HomePage"
-
+import NarendraPaymentPage from "./Narendra-AboutUs/Narendra-AboutUs"
 const MainApp = () => {
   return (
     <BrowserRouter>
@@ -20,6 +20,7 @@ const MainApp = () => {
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
             <Route path="sneha/homepage" element={<SnehaHomePage/>}/>
+            <Route path="sneha/paymentpage" element={<NarendraPaymentPage/>}/>
 
         </Routes>
     </BrowserRouter>
