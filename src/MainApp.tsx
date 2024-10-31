@@ -9,6 +9,8 @@ import NikitaHomePage from "./nikita/HomePage";
 import VigneshHomePage from "./home/HomePage";
 import KeerthanaCartPage from "./Keerthana/CartPage";
 import PoojaHomePage from './pooja/HomePage';
+import SnehaHomePage from "./sneha/HomePage";
+import NarendraHomePage from "./Narendra/Homepage"
 import ProductItem from "./ProductItem";
 import SnehaHomePage from "./sneha/HomePage";
 
@@ -24,6 +26,7 @@ const MainApp = () => {
             <Route path="nikita/homepage" element={<NikitaHomePage />} />
             <Route path="pooja/homepage" element={<PoojaHomePage />} />
             <Route path="sneha/homepage" element={<SnehaHomePage/>}/>
+            <Route path="narendra/homepage" element={<NarendraHomePage/>}/>
             <Route path="keerthana/aboutusPage" element={<KeerthanaAboutUsPage />}/>
 
             <Route path="keerthana/cartPage" element={<KeerthanaCartPage />}/>
