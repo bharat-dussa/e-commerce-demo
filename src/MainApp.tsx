@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App'
 import ProductItem from './ProductItem'
 import CartPage from './CartPage'
+import AboutUsPage from './pooja/AboutUsPage'
 
 const MainApp = () => {
     
@@ -12,6 +13,7 @@ const MainApp = () => {
             <Route path='/' element={<App />} />
             <Route path='/product/:id' element={<ProductItem />} />
             <Route path='/cart' element={<CartPage />} />
+            <Route path='pooja/about-us' element={<AboutUsPage/>}/>
         </Routes>
     </BrowserRouter>
   )
